@@ -9,7 +9,14 @@
    "default_popup": "popup.html",
    "default_title": "Template Browser Extension"
   },
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/r/Jailbreak/*"], 
+      "css" : ["css/style.css"]
+    }
+],
   "permissions": [
     "tabs"
   ]
+  
 }
