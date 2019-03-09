@@ -1,9 +1,4 @@
-body {
-  min-width: 360px;
-}
-
-@media screen and (max-width: 360px) {
-  body {
-    width: 100%;
-  }
+span.flair[title="Developer"] {
+    background: linear-gradient(to right, rgba(248,80,50,1) 0%, rgba(230,214,39,1) 18%, rgba(39,230,39,1) 35%, rgba(39,230,205,1) 51%, rgba(39,77,230,1) 68%, rgba(144,39,230,1) 85%, rgba(144,39,230,1) 100%)!important;
+    color: white;
 }
